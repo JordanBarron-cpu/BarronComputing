@@ -1,0 +1,10 @@
+.nav-item {
+  padding: 16px 12px 18px;
+}
+
+/* Effects */
+.nav-link:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+  text-decoration-color: #0d6efd;
+}
