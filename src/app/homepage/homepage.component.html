@@ -1,7 +1,8 @@
-<!-- Content, Thumbnails, and Social Media Icons -->
 <section>
   <!-- Circle effect -->
-<div class="circle"></div>
+  <div class="circle"></div>
+
+  <!-- Content -->
   <div class="content">
     <div class="textBox">
       <h2>More than just <br /><span>Computing</span></h2>
@@ -17,60 +18,50 @@
       <a href="#">Learn More</a>
     </div>
     <div class="imgBox">
-      <img src="../../assets/images/banner.png" alt="">
+      <img
+        src="{{imagesrc}}"
+        class="barron-computing"
+        alt=""
+      />
     </div>
   </div>
+
+  <!-- Thumbnails -->
   <div>
     <ul class="thumbnail">
-      <li><img src="../../assets/brandWebsiteBuilder/dev/frontendDev/neutrackFrontEndDevelopmentJPG.JPG" alt=""></li>
-      <li><img src="../../assets/brandWebsiteBuilder/dev/frontendDev/square4FrontEndDevelopment.JPG" alt=""></li>
-      <li><img src="../../assets/brandWebsiteBuilder/dev/frontendDev/bobAndWeaveVideoGame.JPG" alt=""></li>
+      <li>
+        <img
+          src="../../assets/brandWebsiteBuilder/dev/frontendDev/square4FrontEndDevelopment.JPG" (click)="imgSlider('back2')"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../../assets/brandWebsiteBuilder/dev/frontendDev/neutrackFrontEndDevelopmentJPG.JPG" (click)="imgSlider('neutrack')"
+          alt=""
+        />
+      </li>
+      <li>
+        <img
+          src="../../assets/brandWebsiteBuilder/dev/frontendDev/bobAndWeaveVideoGame.JPG" (click)="imgSlider('bobAndWeave')"
+          alt=""
+        />
+      </li>
     </ul>
   </div>
+
+  <!-- Social media Icons -->
   <div>
     <ul class="social-media-icons">
-      <li><a href=""><i class="bi bi-twitter"></i></a></li>
-      <li><a href=""><i class="bi bi-instagram"></i></a></li>
-      <li><a href=""><i class="bi bi-tiktok"></i></a></li>
+      <li>
+        <a href=""><i class="bi bi-twitter"></i></a>
+      </li>
+      <li>
+        <a href=""><i class="bi bi-instagram"></i></a>
+      </li>
+      <li>
+        <a href=""><i class="bi bi-tiktok"></i></a>
+      </li>
     </ul>
   </div>
 </section>
-
-<!-- Logo banner -->
-<!-- <div class="jumbotron jumbotron-fluid bg-logo-jumbotron"></div> -->
-
-
-<!-- Application Development Jumbotron -->
-<!-- <div class="jumbotron jumbotron-fluid bg-appdev-jumbotron">
-  <div class="container">
-    <h1 class="display-4 floating">Application Development</h1>
-    <p class="lead floating">Websites, Video Games, & other applications</p>
-  </div>
-</div> -->
-
-<!-- Quality Assurance Jumbotron -->
-<!-- <div class="jumbotron jumbotron-fluid bg-qa-jumbotron">
-  <div class="container">
-    <h1 class="display-4">Quality Assurance</h1>
-    <p class="lead">
-      Ensuring your website or application is of the highest possible quality
-    </p>
-    <ul>
-      <li>Continuous Integration</li>
-      <li>End to End Testing</li>
-      <li>Regression & Behavioral Testing</li>
-      <li>Manual Testing</li>
-      <li>Use Cases and Reports</li>
-    </ul>
-  </div>
-</div> -->
-
-<!-- Database & Programming Design Jumbotron -->
-<!-- <div class="jumbotron jumbotron-fluid bg-design-jumbotron">
-  <div class="container">
-    <h1 class="display-4 floating">Database & Programming Design</h1>
-    <p class="lead floating">
-      Database Administration & Design Patterns for Application Blueprinting
-    </p>
-  </div>
-</div> -->

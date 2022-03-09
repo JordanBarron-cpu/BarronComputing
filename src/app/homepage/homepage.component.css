@@ -2,7 +2,7 @@ section {
   position: relative;
   width: 100%;
   min-height: 100%;
-  padding: 100px 100px 150px 100px;
+  padding: 100px 100px 100px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,11 +50,13 @@ section {
   justify-content: flex-end;
 }
 .content .imgBox img {
-  max-width: 900px;
-  max-height: 800px;
+  max-width: 00px;
+  min-width: 900px;
+  max-height: 700px;
+  min-height: 700px;
   display: flex;
   justify-content: flex-end;
-  padding-right: 50px;
+  padding-right: 40px;
 }
 .thumbnail {
   position: absolute;
@@ -71,8 +73,11 @@ section {
 }
 .thumbnail li img {
   max-width: 200px;
+  min-width: 200px;
   max-height: 100px;
+  min-height: 100px;
   box-shadow: 2px 2px 4px #000000;
+  border-radius: 10px;
 }
 .thumbnail li:hover {
   transform: translateY(-15px);
@@ -110,34 +115,3 @@ font-size: 30px;
   clip-path: circle(800px at right 1000px);
 }
 
-
-
-.jumbotron {
-  height: 80%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
-.bg-logo-jumbotron {
-  background-image: url("../../assets/images/final file logo Barron Computing/Barron Computing-edit-banner.jpg");
-}
-.bg-appdev-jumbotron {
-  background-image: url("../../assets/brandWebsiteBuilder/dev/appdevBanner.jpg");
-}
-.bg-design-jumbotron {
-  background-image: url("../../assets/brandWebsiteBuilder/designAndAdmin/designBanner.PNG");
-}
-.bg-qa-jumbotron {
-  background-image: url("../../assets/brandWebsiteBuilder/QA/qaBanner.PNG");
-}
-.display-4 {
-  color: #fd7e14;
-  font-weight: Bold;
-}
-.lead {
-  color: #0d6efd;
-  font-weight: Bold;
-}
-.floating {
-  float: right;
-}
