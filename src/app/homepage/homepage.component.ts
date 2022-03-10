@@ -18,7 +18,7 @@ export class HomepageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // Changes thumbnails to images
+  // Changes thumbnails to images as well as background circle color
   imgSlider(imageName: string) {
     if(imageName == "neutrack") {
       this.imagesrc="../../assets/brandWebsiteBuilder/dev/frontendDev/neutrackFrontEndDevelopmentJPG.JPG";
