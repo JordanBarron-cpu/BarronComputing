@@ -105,13 +105,40 @@ section {
 .social-media-icons a i {
 font-size: 30px;
 }
-.circle {
+.circle-default {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: #fd7e14;
+  clip-path: circle(800px at right 1000px);
+}
+.circle-square4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #EFF540;
+  clip-path: circle(800px at right 1000px);
+}
+.circle-neutrack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #017143;
+  clip-path: circle(800px at right 1000px);
+}
+.circle-bobAndWeave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #A44D94;
   clip-path: circle(800px at right 1000px);
 }
 

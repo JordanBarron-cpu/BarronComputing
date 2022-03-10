@@ -7,21 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
   imagesrc :string
+  circleClass :string
+
 
   constructor() {
     this.imagesrc = "../../assets/images/banner.png";
+    this.circleClass = "circle-default";
    }
 
   ngOnInit(): void {
   }
 
+  // Changes thumbnails to images
   imgSlider(imageName: string) {
     if(imageName == "neutrack") {
       this.imagesrc="../../assets/brandWebsiteBuilder/dev/frontendDev/neutrackFrontEndDevelopmentJPG.JPG";
-    } else if(imageName == "back2") {
+      this.circleClass = "circle-neutrack";
+    } else if(imageName == "square4") {
       this.imagesrc="../../assets/brandWebsiteBuilder/dev/frontendDev/square4FrontEndDevelopment.JPG";
+      this.circleClass = "circle-square4";
     } else {
       this.imagesrc="../../assets/brandWebsiteBuilder/dev/frontendDev/bobAndWeaveVideoGame.JPG"
+      this.circleClass = "circle-bobAndWeave";
     }
   }
 
