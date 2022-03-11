@@ -1,21 +1,40 @@
-
-.nav-item {
-  padding: 16px 12px 18px;
+* {
+  box-sizing: border-box;
 }
-.navbar-brand {
-  color: #fd7e14;
-  font-weight: bold;
-  font-size: 30px;
+header {
+  width: 100%;
+  padding: 8px 16px;
 }
-.nav-link {
+.brand {
   display: inline-block;
 }
-.font-color-dark {
-  color: rgba(255,255,255,.55);
+.navigation {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 60px);
 }
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-list-item {
+  display: inline-block;
+  margin: 0px 5px;
+}
+.for-free::after {
+  content: " (Free)";
+}
+.nav-list-item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  padding-bottom: 2px;
+  border-bottom: #000000 solid 3px;
+}
+
 /* Effects */
-.nav-link:hover {
-  color: #0d6efd;
-  text-decoration: underline;
-  text-decoration-color: #0d6efd;
+.nav-list-item a:hover {
+  color:  #5AB7DF;
+  border-bottom-color: #fd7e14 ;
 }
