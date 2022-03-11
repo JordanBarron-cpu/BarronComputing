@@ -11,7 +11,7 @@ header {
 .navigation {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 60px);
+  width: calc(100% - 210px);
 }
 .nav-list {
   margin: 0;
@@ -30,11 +30,24 @@ header {
   font-weight: bold;
   color: #000000;
   padding-bottom: 2px;
-  border-bottom: #000000 solid 3px;
+
+}
+.call-to-action a {
+  padding: 8px 16px;
+  background: #ffa31a;
+  color: #fff;
+  border-radius: 40px;
+  letter-spacing: 1px;
 }
 
 /* Effects */
 .nav-list-item a:hover {
   color:  #5AB7DF;
-  border-bottom-color: #fd7e14 ;
+  border-bottom: #ffa31a solid 3px;
 }
+.call-to-action a:hover {
+  color: #fff;
+  border-bottom: #000000 solid 3px;
+}
+
+/* #fd7e14 harder orange*/

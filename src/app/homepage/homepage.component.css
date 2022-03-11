@@ -26,7 +26,7 @@ section {
   font-weight: 500;
 }
 .content .textBox h2 span {
-  color: #fd7e14;
+  color: #ffa31a;
   line-height: 1.2em;
   font-weight: 900;
 }
@@ -37,7 +37,7 @@ section {
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
-  background: #fd7e14;
+  background: #ffa31a;
   color: #fff;
   border-radius: 40px;
   font-weight: 500;
@@ -111,7 +111,7 @@ font-size: 30px;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fd7e14;
+  background-color: #ffa31a;
   clip-path: circle(800px at right 1000px);
 }
 .circle-square4 {
