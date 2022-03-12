@@ -49,5 +49,9 @@ header {
   color: #fff;
   border-bottom: #000000 solid 3px;
 }
+.nav-list-item a:active{
+  color:  #5AB7DF;
+  border-bottom: #ffa31a solid 3px;
+}
 
 /* #fd7e14 harder orange*/
