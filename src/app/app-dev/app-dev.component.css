@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+}
+.current-img {
+  display: inline-block;
+  min-width: 80%;
+}
+.current-img img {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+}
+.img-directory {
+  display: inline-block;
+  background: #000;
+  min-width: 20%;
+}
+.img-directory-items {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.img-directory-items a {
+  text-decoration: none;
+}
+.img-directory-item {
+  border-bottom: #b3b3b3 solid 3px;
+  padding: 3px 16px;
+}
+.img-directory-item h2 {
+  color: #fff;
+}
+.img-directory-item p {
+  color: #b3b3b3;
+}
+.img-directory-item:hover {
+  background-color: #b3b3b3;
+}
