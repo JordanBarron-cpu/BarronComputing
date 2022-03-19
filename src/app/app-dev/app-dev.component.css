@@ -23,7 +23,7 @@
 } */
 .img-directory {
   display: inline-block;
-  background: #000;
+  background-image: linear-gradient(to left, #660066, #a3297a);
   height: 1100px;
   width: 20%;
   vertical-align: middle;
@@ -47,5 +47,5 @@
   color: #b3b3b3;
 }
 .img-directory-item:hover {
-  background-color: #b3b3b3;
+  background-color: #000;
 }
