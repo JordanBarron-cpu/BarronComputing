@@ -16,14 +16,9 @@
   background-origin: border-box;
   vertical-align: middle;
 }
-/* .current-img img {
-  margin: 0;
-  padding: 0;
-  min-width: 100%;
-} */
 .img-directory {
   display: inline-block;
-  background-image: linear-gradient(to left, #660066, #a3297a);
+  background-color: #4d004d;
   height: 1100px;
   width: 20%;
   vertical-align: middle;
