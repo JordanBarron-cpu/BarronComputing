@@ -16,6 +16,30 @@
   background-origin: border-box;
   vertical-align: middle;
 }
+.current-img-square4 {
+  display: inline-block;
+  width: 80%;
+  height: 1100px;
+  background-image: url("../../assets/brandWebsiteBuilder/dev/frontendDev/square4FrontEndDevelopment.JPG");
+  background-color: #000;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: auto;
+  background-origin: border-box;
+  vertical-align: middle;
+}
+.current-img-neutrack {
+  display: inline-block;
+  width: 80%;
+  height: 1100px;
+  background-image: url("../../assets/brandWebsiteBuilder/dev/frontendDev/neutrackFrontEndDevelopmentJPG.JPG");
+  background-color: #000;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: auto;
+  background-origin: border-box;
+  vertical-align: middle;
+}
 .img-directory {
   display: inline-block;
   background-color: #b3b3b3;
