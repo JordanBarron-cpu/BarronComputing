@@ -18,7 +18,7 @@
 }
 .img-directory {
   display: inline-block;
-  background-color: #4d004d;
+  background-color: #b3b3b3;
   height: 1100px;
   width: 20%;
   vertical-align: middle;
@@ -39,8 +39,8 @@
   color: #fff;
 }
 .img-directory-item p {
-  color: #b3b3b3;
+  color: #000;
 }
 .img-directory-item:hover {
-  background-color: #000;
+  background-color: #fff;
 }
