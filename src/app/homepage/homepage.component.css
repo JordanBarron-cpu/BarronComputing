@@ -7,6 +7,7 @@ section {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
+  background-color: #c7d9eb;
 }
 .content {
   position: relative;
@@ -23,7 +24,7 @@ section {
   color: #333;
   font-size: 4em;
   line-height: 1.4em;
-  font-weight: 500;
+  font-weight: 700;
 }
 .content .textBox h2 span {
   color: #ffa31a;
@@ -32,6 +33,7 @@ section {
 }
 .content .textBox p {
   color: #333;
+  font-weight: 400;
 }
 .content .textBox a {
   display: inline-block;
@@ -40,6 +42,7 @@ section {
   background: #ffa31a;
   color: #fff;
   border-radius: 40px;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: 1px;
   text-decoration: none;

@@ -4,7 +4,7 @@
 /* section {
   height: 700px;
 } */
-.current-img {
+.current-img-bobAndWeave {
   display: inline-block;
   width: 80%;
   height: 1100px;
@@ -40,6 +40,7 @@
   background-origin: border-box;
   vertical-align: middle;
 }
+
 .img-directory {
   display: inline-block;
   background-color: #b3b3b3;
@@ -60,11 +61,27 @@
   padding: 3px 16px;
 }
 .img-directory-item h2 {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
 }
 .img-directory-item p {
   color: #000;
 }
 .img-directory-item:hover {
   background-color: #fff;
+}
+
+@media (max-width: 40rem) {
+  .current-img-neutrack, .current-img-square4, .current-img-bobAndWeave, .img-directory {
+    width: 100%;
+    display: block;
+    margin: 0px;
+  }
+  .current-img-neutrack, .current-img-square4, .current-img-bobAndWeave {
+    height: 500px;
+  }
+
+  .img-directory {
+    height: auto;
+  }
 }
